@@ -1,0 +1,149 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+<body>
+  <div class="header">
+    <p class="icon">LaForge</p>
+    <p class ="Signin">National Cyber Security Event<a href="#"> / Profile</a></p>
+  </div>
+  <div class="header-divider"></div>
+
+  <div class="main-wrapper">
+    <div class="user-acc-up">
+
+              <div class="search-category">
+                <span>Search Category</span>
+                <input list="browsers" name="browser">
+                <datalist class="datalist" id="browsers">
+                  <option value="Name">
+                  <option value="Email">
+                  <option value="Phone">
+                  <option value="Github">
+                  <option value="Organization">
+                </datalist>
+              </div>
+
+              <div class="checkbox-wrapper-vol">
+                  <input class="f2" type="checkbox" id="volunteer" value="volunteer" name="volunteer">
+                  <label for="volunteer">Volunteer</label>
+                  <input class="f1" type="checkbox" id="admin" value="admin" name="admin">
+                  <label for="admin">Admin</label>                           
+              </div>
+
+              <div class="wrapper">
+                <div class="all-options">
+                    <input class = "search-bar" type="text">
+                    <button class="org-btn search-btn">Search</button>
+                    <button class="org-btn search-btn" routerLink="/pop-up">Add User</button>
+                </div>
+              </div>
+
+            <table class="table table-striped custom-table">
+              <thead>
+                <tr>
+                  <th>Name</th>
+                  <th>Email</th>
+                  <th>Phone</th>
+                  <th>Github</th>
+                  <th>Organization</th>
+                  <th>Role</th>
+                  <th>Action</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>John</td>
+                  <td>John.doe@gmail.com</td>
+                  <td>5859574782</td>
+                  <td>John.doe123</td>
+                  <td>Rochester Institute of Technology</td>
+                  <td>Volunteer</td>
+                  <td>
+                    <i class="fa fa-window-close cross"></i><i class="fa fa-cog settings"></i>
+                  </td>
+                </tr>
+                <tr>
+                  <td>Mary</td>
+                  <td>Mary.doe@gmail.com</td>
+                  <td>5859574782</td>
+                  <td>Mary.doe123</td>
+                  <td>Rochester Institute of Technology</td>
+                  <td>Volunteer</td>
+                  <td>
+                    <i class="fa fa-window-close cross"></i><i class="fa fa-cog settings"></i>
+                  </td>
+                </tr>
+                <tr>
+                  <td>Amy</td>
+                  <td>Amy.doe@gmail.com</td>
+                  <td>5859574782</td>
+                  <td>Amy.doe123</td>
+                  <td>Rochester Institute of Technology</td>
+                  <td>Volunteer</td>
+                  <td>
+                    <i class="fa fa-window-close cross"></i><i class="fa fa-cog settings"></i>
+                  </td>
+                </tr>
+
+                <tr>
+                    <td>Johnny</td>
+                    <td>Johnny.doe@gmail.com</td>
+                    <td>5859574782</td>
+                    <td>Johnny.doe123</td>
+                    <td>Rochester Institute of Technology</td>
+                    <td>Volunteer</td>
+                    <td>
+                      <i class="fa fa-window-close cross"></i><i class="fa fa-cog settings"></i>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Lary</td>
+                    <td>Lary.doe@gmail.com</td>
+                    <td>5859574782</td>
+                    <td>Lary.doe123</td>
+                    <td>University of Rochester</td>
+                    <td>Volunteer</td>
+                    <td>
+                      <i class="fa fa-window-close cross"></i><i class="fa fa-cog settings"></i>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Michale</td>
+                    <td>Michale.doe@gmail.com</td>
+                    <td>5859574782</td>
+                    <td>Michale.doe123</td>
+                    <td>University of Rochester</td>
+                    <td>Volunteer</td>
+                    <td>
+                      <i class="fa fa-window-close cross"></i><i class="fa fa-cog settings"></i>
+                    </td>
+                  </tr>
+              </tbody>
+            </table>
+
+            <ul class="pagination pagination-sm custom-pagination">
+              <li class="page-item prev"><a class="page-link" href="#">Previous</a></li>
+              <li class="page-item"><a class="page-link" href="#">1</a></li>
+              <li class="page-item"><a class="page-link" href="#">2</a></li>
+              <li class="page-item"><a class="page-link" href="#">3</a></li>
+              <li class="page-item next"><a class="page-link" href="#">Next</a></li>
+            </ul>
+
+          </div>
+
+          <!-- <div class="container"> -->
+            <router-outlet></router-outlet>
+          <!-- </div> -->
+    <!-- </div> -->
+  </div>
+
+</body>
+
+</html>

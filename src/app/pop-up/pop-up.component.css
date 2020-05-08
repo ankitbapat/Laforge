@@ -1,0 +1,59 @@
+body{
+    background-color:black;
+ }
+ .modal{
+    background-color: rgba(256,256,256,0.7);
+ }
+ .modal-content{
+    width:50vw;
+    height:40vh;
+    margin-top: 15%; 
+    margin-left: 25%;
+    background-color: black;
+    color: #f2c300;
+    border-radius: 10px;
+ }
+ .modal-body{
+    height: 100%;
+    position: relative;
+ }
+ form{
+    height: 66%;
+    padding-top: inherit;
+    padding-bottom: inherit;
+ }
+ #email-div{
+    width:100%;
+ }
+ input[type="radio"] {
+    -webkit-appearance: checkbox; /* Chrome, Safari, Opera */
+    -moz-appearance: checkbox;    /* Firefox */
+    -ms-appearance: checkbox;     /* not currently supported */
+ }
+ #email{
+    min-width: 60%;
+    border: #5384f7;
+    background-color:#5384f7; 
+    border-radius: 20px;
+ }
+ #email-section{
+    padding-left: 20%;
+    min-height: 50%;
+ }
+ .buttons{
+    width:100%;
+ }
+ .back-button{
+    width: 20%;
+    margin-right: 5%;
+    color: #f2c300;
+ }
+ .add-volunteer-button{
+    width: 30%;
+    color: black;
+ }
+
+ #radio-buttons-section{
+    min-height: 30%;
+    position: relative;
+ }
